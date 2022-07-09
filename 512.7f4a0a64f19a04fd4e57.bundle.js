@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksango_slide=self.webpackChunksango_slide||[]).push([[512],{8512:(s,e,a)=>{a.r(e)}}]);

@@ -1,0 +1,339 @@
+/* themes */
+/* When nothing is loaded, the default theme will be applied. */
+/* see https://github.com/hiroppy/fusuma#themes */
+/* @import '@fusuma/client/assets/style/themes/pop.css'; */
+/* @import '@fusuma/client/assets/style/themes/babel.css'; */
+/* @import '@fusuma/client/assets/style/themes/webpack.css'; */
+/* @import '@fusuma/client/assets/style/themes/node.css'; */
+@import url(https://fonts.googleapis.com/css?family=Quicksand%3A500%2C700&display=swap);
+/* global config */
+/* When you want to change the default values, please uncomment. */
+/* see https://github.com/hiroppy/fusuma/blob/master/packages/client/assets/style/variables.css */
+:root { 
+--base-font-family: "Quicksand","Helvetica", "Arial", "Hiragino Kaku Gothic ProN", "Hiragino Sans", YuGothic, "Yu Gothic", "メイリオ", Meiryo, sans-serif; 
+--base-font-size: 2.4rem; 
+--base-font-weight: 300; 
+--base-align: center; 
+--base-max-width: 1280px; 
+--base-outer-margin: 24px; 
+--base-image-width: 100%; 
+--base-image-border-radius: 0; 
+--h1-font-size: 5.6rem; 
+--h2-font-size: 4rem; 
+--h3-font-size: 3.6rem; 
+--code-font-size: 1.8rem; 
+--account-icon-size: 3rem; 
+}
+
+.title {
+}
+
+/* https://hiroppy.github.io/fusuma/docs/guides/slide-syntax#declaring-section-title */
+.section-title {
+}
+
+.slide-internal-box ul {
+  list-style-type: none;
+}
+
+.slide-internal-box li {
+  line-height: 1.7;
+  margin-bottom: 10px;
+}
+
+.slide-internal-box ol {
+  margin-left: 30px;
+}
+
+.slide-internal-box ul li:before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #b4e0fa;
+  vertical-align: middle;
+  margin-right: 15px;
+  margin-top: -3px;
+}
+
+.swiper-slide:first-child {
+  background-image: url(https://saruwakakun.design/wp-content/uploads/2022/06/sango3-logo-bg-dark.svg);
+  background-color: #b4e0fa;
+  background-position: center;
+  background-size: 500px 500px;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.swiper-slide:first-child h1 {
+  color: #fff;
+}
+
+.swiper-slide:first-child {
+  align-items: flex-end;
+}
+
+.swiper-slide:first-child p {
+  color: #fff;
+  font: bold;
+}
+
+.swiper-slide:nth-child(3) img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.swiper-slide:nth-child(3) ul {
+  margin-top: 50px;
+}
+
+.swiper-slide:nth-child(n + 2) h2 {
+  position: relative;
+  padding: 0.15em 0.4em;
+  border-radius: 3px;
+  margin-bottom: 1.5em;
+  color: #fff;
+  background-color: #5ba9f7;
+  border-color: #5ba9f7;
+  width: 100%;
+  text-align: left;
+  font-size: 1em;
+}
+
+.swiper-slide:nth-child(n + 2) h2:after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  top: calc(100% - 1px);
+  left: 25px;
+  width: 0;
+  height: 0;
+  border: 12px solid transparent;
+  border-top: 12px solid;
+  border-top-color: inherit;
+}
+
+.swiper-slide:nth-child(n + 2) .slide-internal-box {
+  padding-top: 50px;
+  height: calc(100vh - 100px);
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.swiper-slide:nth-child(n + 2) .slide-internal-box h2 {
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+.swiper-slide:nth-child(n + 2) .slide-internal-box p {
+  text-align: left;
+}
+
+.swiper-slide:nth-child(n + 2) ul {
+  margin-left: 0;
+}
+
+.swiper-slide:nth-child(n + 2) p {
+  font-size: 24px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.swiper-slide:nth-child(n + 2) li {
+  margin-left: 0;
+  font-size: 24px;
+}
+
+.swiper-slide:nth-child(n + 2) img {
+  box-shadow: 0 3px 6px rgb(0 0 0 / 18%);
+}
+
+.twitter-btn {
+  width: 250px;
+  border-radius: 30px;
+  background-color: rgb(29, 155, 240);
+  display: block;
+  color: #fff;
+  padding: 15px;
+  margin-top: 50px;
+}
+
+.swiper-slide {
+  padding-top: 100px;
+}
+
+.swiper-slide:after {
+  content: "";
+  background-image: url(https://saruwakakun.design/wp-content/uploads/2022/06/sango3-logo-bg-dark.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
+
+.swiper-slide:before {
+  content: "";
+  background-color: #009ef3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  box-shadow: 0 3px 6px rgb(0 0 0 / 18%);
+}
+
+.swiper-slide.blocks .grid {
+  width: 100%;
+}
+
+.swiper-slide.blocks ul li {
+  font-size: 20px;
+}
+
+.swiper-slide.blocks .column {
+  padding-top: 0;
+}
+
+/* 参考 * /
+/*他サイトへのリンクカード[sanko]*/
+.reference {
+  display: table;
+  max-width: 450px;
+  width: 100%;
+  margin: 1em 0 1.5em;
+  padding: 13px 10px 13px 0;
+  border-radius: 2px;
+  background: #f5f5f5;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+  color: #555;
+  font-weight: bold;
+  text-decoration: none !important;
+}
+.reference:hover {
+  box-shadow: 0 10px 20px -4px rgba(0, 0, 0, 0.22);
+  color: #888;
+  text-decoration: none;
+}
+.reference .refttl {
+  width: 70px;
+  margin: 10px;
+  border-right: solid 2px #dadada;
+  text-align: center;
+  line-height: 1.5;
+  display: table-cell;
+  font-size: 0.8em;
+}
+
+.reference .refcite {
+  width: 200px;
+  width: calc(100% - 70px);
+  padding-left: 10px;
+  font-size: 0.68em;
+  line-height: 1.5;
+  display: table-cell;
+  text-align: left;
+}
+.reference .refcite span {
+  display: block;
+  color: #ababab;
+  font-size: 0.9em;
+}
+
+
+.youtube {
+  position: relative;
+  padding-bottom: 56.25%;
+  width: 100%;
+}
+
+.youtube iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.grid {
+  width: 100%;
+}
+
+.section .slide-internal-box {
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.section h1 {
+  font-size: 40px;
+  text-align: left;
+  color: #fff;
+}
+
+table {
+  text-align: left;
+}
+
+table td {
+  padding: 10px;
+}
+
+table tr td:first-child {
+  width: 200px;
+}
+
+h3 {
+  color: #fff;
+    background-color: #5ba9f7;
+  display: block;
+  width: 100%;
+  text-align: left;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  padding: 0 10px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.sango-pr img {
+  max-height: 400px;
+  width: auto;
+}
+
+.balloon {
+  text-align: left;
+  border: #ccc solid 4px;
+  position: relative;
+  background: #fff;
+  padding: 20px;
+  border-radius: 13px;
+  line-height: 1.7;
+}
+
+.balloon:before {
+  border-right: 23px solid #ccc;
+  border-bottom: 20px solid transparent;
+  border-top: 20px solid transparent;
+  top: 30%;
+  content: "";
+  position: absolute;
+  left: -23px;
+}
+
+.balloon:after {
+  content: "";
+  position: absolute;
+  border-right: 24px solid #fff;
+  border-bottom: 20px solid transparent;
+  border-top: 20px solid transparent;
+  top: 30%;
+  left: -17px;
+}

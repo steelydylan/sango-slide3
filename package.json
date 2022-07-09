@@ -1,0 +1,23 @@
+{
+  "name": "sango-slide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fix:fusuma": "cp ./tools/buildLogs.js ./node_modules/fusuma/src/utils/buildLogs.js",
+    "start": "fusuma start"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "fusuma": "^2.8.4"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.16",
+    "add": "^2.0.6",
+    "yarn": "^1.22.17"
+  }
+}

@@ -157,6 +157,13 @@ SANGO 3.0の新機能
 
 ![](/assets/decoration.png)
 
+---
+
+## 記事一覧ブロック
+
+別名タイトル表示
+
+記事のタイトルが長すぎる時などに有効
 
 ---
 
@@ -249,6 +256,60 @@ SANGO 3.0の新機能
 - メインカラム、サイドカラムの割合
 - メインカラムとサイドカラムのギャップ
 - 角丸や影の具合
+
+---
+<!-- classes: title -->
+<!-- background: '/assets/section.jpeg' -->
+
+
+# SANGO Landのブロック紹介
+
+
+---
+
+## SANGO Landのブロック紹介
+
+<!-- block-start: grid -->
+
+<!-- block-start: column -->
+
+<Sanko
+  url="https://www.sangoland.app/users/sangowp/a2c19e29-0f3d-47bf-b1c3-34803efa8f0f"
+  title="画像比較ブロック"
+  subtitle="SANGO Land"
+/>
+
+<Sanko
+  url="https://www.sangoland.app/users/sangowp/84f027d5-51de-4080-95c2-281b77b83b94"
+  title="ウィンドウ下に固定で表示されるCTA"
+  subtitle="SANGO Land"
+/>
+
+<Sanko
+  url="https://www.sangoland.app/users/nojihata/05c48742-b534-4a31-98ce-110a205e52e6"
+  title="アニメーションブロック"
+  subtitle="SANGO Land"
+/>
+
+<Sanko
+  url="https://www.sangoland.app/users/nojihata/e76f8111-f7a8-4acd-a567-69d67db91ea3"
+  title="マイクロコピー付きアフィリエイト用ボタン"
+  subtitle="SANGO Land"
+/>
+
+<!-- block-end: column -->
+
+<!-- block-start: column -->
+
+<Sanko
+  url="https://www.sangoland.app/users/nojihata/e76f8111-f7a8-4acd-a567-69d67db91ea3"
+  title="マイクロコピー付きアフィリエイト用ボタン"
+  subtitle="SANGO Land"
+/>
+
+<!-- block-end -->
+
+<!-- block-end -->
 
 ---
 

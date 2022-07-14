@@ -90,17 +90,11 @@ import { LinkImage } from '../src/link-image'
 | 時刻          | 内容                                                       | 発表者       | 
 | ------------- | ---------------------------------------------------------- | ------------ | 
 | 20:00 ~ 20:10              | オープニング                                               |              | 
-| 20:10 ~ 20:30 | SANGOブロックのカスタマイズのLT（ライトニングトーク）           |<img src="https://pbs.twimg.com/profile_images/1466045863823032320/8gf4XL6z_400x400.jpg" style={{ width: '40px', height: '40px', verticalAlign: 'middle', borderRadius: '50%' }} />   | 
-| 20:40 ~ 21:00 | SANGO 3.0の新機能紹介及び今後の展望                              | <img src="https://pbs.twimg.com/profile_images/818482682904518656/ACNavHHW_x96.jpg" style={{ width: '40px', height: '40px', verticalAlign: 'middle', borderRadius: '50%' }} /> | 
-| 21:00 ~ 21:20 | SANGO Landで追加されたブロックの紹介                              | <img src="https://pbs.twimg.com/profile_images/818482682904518656/ACNavHHW_x96.jpg" style={{ width: '40px', height: '40px', verticalAlign: 'middle', borderRadius: '50%' }} /> | 
-| 21:10 ~ 21:30 | SANGO Landの使い方と投稿方法紹介                              | <img src="https://pbs.twimg.com/profile_images/818482682904518656/ACNavHHW_x96.jpg" style={{ width: '40px', height: '40px', verticalAlign: 'middle', borderRadius: '50%' }} /> | 
+| 20:10 ~ 20:50 | SANGO 3.0の新機能紹介及び今後の展望                              | <img src="https://pbs.twimg.com/profile_images/818482682904518656/ACNavHHW_x96.jpg" style={{ width: '40px', height: '40px', verticalAlign: 'middle', borderRadius: '50%' }} /> | 
+| 20:50 ~ 21:00 | SANGO Landで追加されたブロックの紹介                              | <img src="https://pbs.twimg.com/profile_images/818482682904518656/ACNavHHW_x96.jpg" style={{ width: '40px', height: '40px', verticalAlign: 'middle', borderRadius: '50%' }} /> | 
+| 21:00 ~ 21:10 | SANGO Landの使い方と投稿方法紹介                              | <img src="https://pbs.twimg.com/profile_images/818482682904518656/ACNavHHW_x96.jpg" style={{ width: '40px', height: '40px', verticalAlign: 'middle', borderRadius: '50%' }} /> | 
+| 20:10 ~ 21:30 | SANGOブロックのカスタマイズのLT（ライトニングトーク）           |<img src="https://pbs.twimg.com/profile_images/1466045863823032320/8gf4XL6z_400x400.jpg" style={{ width: '40px', height: '40px', verticalAlign: 'middle', borderRadius: '50%' }} />   | 
 | 21:30 ~ 22:00 | 質問への回答やフリートーク           | <img src="https://pbs.twimg.com/profile_images/818482682904518656/ACNavHHW_x96.jpg" style={{ width: '40px', height: '40px', verticalAlign: 'middle', borderRadius: '50%' }} /> | 
-
----
-
-## ライトニングトーク
-
-- <img src="https://pbs.twimg.com/profile_images/1466045863823032320/8gf4XL6z_400x400.jpg" style={{ width: '100px', height: '100px', verticalAlign: 'middle', borderRadius: '50%' }} /> @nojihata_com
 
 ---
 
@@ -110,7 +104,9 @@ import { LinkImage } from '../src/link-image'
 
 # SANGO WEBINAR
 
-SANGO 3.0の新機能
+---
+
+## SANGO 3.0の新機能
 
 - 高速化機能の充実
 - エディター機能の強化
@@ -311,7 +307,17 @@ SANGO 3.0の新機能
 
 <!-- block-end -->
 
+
 ---
+
+## ライトニングトーク
+
+- <img src="https://pbs.twimg.com/profile_images/1466045863823032320/8gf4XL6z_400x400.jpg" style={{ width: '100px', height: '100px', verticalAlign: 'middle', borderRadius: '50%' }} /> @nojihata_com
+
+
+---
+
+
 
 <!-- classes: title -->
 <!-- background: '/assets/section.jpeg' -->

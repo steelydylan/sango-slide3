@@ -138,6 +138,7 @@ import { LinkImage } from '../src/link-image'
 
 ## 記事一覧ブロック
 
+長すぎるタイトルを短くして記事をピックアップ表示したい場合などに有効
 
 ![](/assets/another-title.png)
 
@@ -157,20 +158,13 @@ import { LinkImage } from '../src/link-image'
 
 ## 記事一覧ブロック
 
-別名タイトル表示
-
-記事のタイトルが長すぎる時などに有効
-
----
-
-## 記事一覧ブロック
-
 サイドバーなどに記事一覧を設置して現在のカテゴリーに基づいて
 
 記事を表示したいときなどに便利
 
-
 ![](/assets/current-category.png)
+
+![](/assets/same-category.png)
 
 ---
 
@@ -252,6 +246,120 @@ import { LinkImage } from '../src/link-image'
 - メインカラム、サイドカラムの割合
 - メインカラムとサイドカラムのギャップ
 - 角丸や影の具合
+
+---
+
+## theme.json
+
+
+### メインカラムとサイドカラムの割合を変えたい
+
+子テーマのtheme.jsonに以下を記述
+
+```json
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "settings": {
+    "custom": {
+      "wrap": {
+        "side": "40%"
+      }
+    }
+  }
+}
+```
+
+---
+
+## theme.json
+
+
+### メインカラムとサイドカラムのギャップを変えたい
+
+子テーマのtheme.jsonに以下を記述
+
+```json
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "settings": {
+    "custom": {
+      "wrap": {
+        "gap": "50px"
+      }
+    }
+  }
+}
+```
+
+---
+
+## theme.json
+
+### 角丸具合を変えたい
+
+子テーマのtheme.jsonに以下を記述
+
+```json
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "settings": {
+    "custom": {
+      "rounded": {
+        "medium": "4px",
+        "small": "2px"
+      }
+    }
+  }
+}
+```
+
+---
+
+## フィルター機能の強化
+
+SANGOテーマの文言や画像を簡単なPHPで差し替えられます。
+
+- 404画像
+- 404タイトル
+- この記事を書いた人
+
+---
+
+## フィルター機能
+
+### 404ページ
+
+
+```php
+// タイトルを変えたい
+add_filter('sng_notfound_title', function () {
+  return "404 Not Found";
+});
+```
+
+
+```php
+// 画像を変えたい
+add_filter('sng_notfound_image', function () {
+  return "ここに画像のパス";
+});
+```
+
+---
+
+## フィルター機能
+
+### この記事を書いた人
+
+
+```php
+add_filter('sng_author_label', function () {
+  return "この記事の監修者";
+});
+```
 
 ---
 <!-- classes: title -->

@@ -129,6 +129,42 @@ import { LinkImage } from '../src/link-image'
 
 ---
 
+## 高速化機能実装の目的
+
+不具合の原因になったりするプラグインを減らしたい。今回のアプデで以下のプラグインが減らせる
+
+- Autoptimize
+- WP Super Cacheなど
+
+---
+
+## キャッシュ機能
+
+そもそもキャッシュとは、計算結果をあらかじめ保存しておいてその結果を返す仕組み。
+
+- ブラウザーキャッシュ
+- サーバーキャッシュ ← 今回の機能はこれ
+
+---
+
+## キャッシュ削除タイミング
+
+- 記事更新時
+- プラグインアップデート時
+- SANGO テーマ更新時
+- カスタマイザーの更新時
+
+---
+
+## キャッシュ削除
+
+キャッシュ削除はツールバーより
+
+![](/assets/delete-cache.png)
+
+
+---
+
 ## エディター機能の強化
 
 - 記事一覧ブロック
@@ -205,9 +241,16 @@ import { LinkImage } from '../src/link-image'
 ## ヘッダー
 
 - ヘッダーブロックを使おう
-- 合わせて通知ブロックも使うと良いかも
 
 ![](/assets/header.png)
+
+
+---
+
+## ヘッダー
+
+
+通知ブロックも合わせて使うと便利
 
 ---
 
@@ -360,6 +403,40 @@ add_filter('sng_author_label', function () {
   return "この記事の監修者";
 });
 ```
+
+---
+<!-- classes: title -->
+<!-- background: '/assets/section.jpeg' -->
+
+
+# 最近追加した機能の紹介
+
+
+---
+
+
+## クリック率計測機能
+
+コンテンツブロック内のリンクのクリック率を計測できます！
+
+<Sanko
+  url="https://saruwakakun.com/sango/sango-content-block"
+  title="広告管理やサイトのパーツ作りに大活躍！SANGO コンテンツブロックについて"
+  subtitle="SANGO カスタマイズガイド"
+/>
+
+---
+
+## ABテスト機能
+
+コンテンツブロック同士のABテストができます。
+クリック率比較などに利用できます。
+
+<Sanko
+  url="https://saruwakakun.com/sango/sango-block-ab-test"
+  title="【SANGO ABテストブロック】の使い方"
+  subtitle="SANGO カスタマイズガイド"
+/>
 
 ---
 <!-- classes: title -->

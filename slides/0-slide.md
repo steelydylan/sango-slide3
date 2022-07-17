@@ -488,6 +488,24 @@ add_filter('sng_author_label', function () {
   subtitle="SANGO Land"
 />
 
+<Sanko
+  url="https://www.sangoland.app/users/sangowp/5df1ba25-c208-4ac3-82fe-2cb7d27f6fd3"
+  title="その場でYouTubeを再生するボタン"
+  subtitle="SANGO Land"
+/>
+
+<Sanko
+  url="https://www.sangoland.app/users/chabesu/ddcad5a2-1d95-4f10-b20c-aaf0acf54ebb"
+  title="棒グラフと折れ線グラフが作れるブロック"
+  subtitle="SANGO Land"
+/>
+
+<Sanko
+  url="https://www.sangoland.app/users/nojihata/1c782f03-4271-4c5b-ba41-a43fdfc3ad4d"
+  title="広告を明示するブロック"
+  subtitle="SANGO Land"
+/>
+
 <!-- block-end -->
 
 <!-- block-end -->

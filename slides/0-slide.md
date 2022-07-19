@@ -510,6 +510,23 @@ add_filter('sng_author_label', function () {
 
 <!-- block-end -->
 
+---
+
+## SANGO Landでできること
+
+- SANGO Landとエディターを連携する
+- ほしいブロックをリクエストする
+- ブロックに対してコメントする
+- ブロックにいいねを押す
+- ブロックを投稿する
+- いいねしたブロックを並び替える
+
+---
+
+## SANGO 3.1の紹介
+
+![](/assets/sango-admin.png)
+
 
 ---
 

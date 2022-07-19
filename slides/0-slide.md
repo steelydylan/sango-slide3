@@ -525,6 +525,8 @@ add_filter('sng_author_label', function () {
 
 ## SANGO 3.1の紹介
 
+使いやすさとわかりやすさにこだわった専用設定画面
+
 ![](/assets/sango-admin.png)
 
 

@@ -227,6 +227,18 @@ import { LinkImage } from '../src/link-image'
 
 ---
 
+## 条件ブロック
+
+新たに以下の条件を追加！
+
+- トップページ
+- カテゴリートップページ
+- 記事ページ
+- 固定ページ
+
+
+---
+
 ## コンテンツブロック機能の強化
 
 以下のコンテンツをコンテンツブロックとして設定可能に
@@ -251,6 +263,8 @@ import { LinkImage } from '../src/link-image'
 
 
 通知ブロックも合わせて使うと便利
+
+![](/assets/notification.png)
 
 ---
 

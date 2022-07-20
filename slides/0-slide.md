@@ -432,8 +432,32 @@ add_filter('sng_author_label', function () {
 <!-- classes: title -->
 <!-- background: '/assets/section.jpeg' -->
 
+---
 
-# 最近追加した機能の紹介
+## 今後のカスタマイズ方法
+
+### あまり推奨しない
+
+- 子テーマにfunctions.phpを記述する
+- 子テーマにCSSなどを記述する
+- 追加CSSにCSSなどを記述する
+
+
+### 推奨
+
+- ブロックのカスタムCSSにCSSを記述する
+- サイトのパーツはコンテンツブロックで作り込む
+- どうしても実現できない表現はSANGO Landでリクエストする
+- 角丸や影の具合などの全体の調整はtheme.jsonで調整
+
+---
+
+
+## 最近追加した機能の紹介
+
+
+- クリック率計測機能
+- ABテスト機能
 
 
 ---
@@ -463,6 +487,18 @@ add_filter('sng_author_label', function () {
 />
 
 ---
+
+
+
+## SANGO 3.1の紹介
+
+使いやすさとわかりやすさにこだわった専用設定画面
+
+![](/assets/sango-admin.png)
+
+---
+
+
 <!-- classes: title -->
 <!-- background: '/assets/section.jpeg' -->
 
@@ -545,13 +581,6 @@ add_filter('sng_author_label', function () {
 - ブロックを投稿する
 - いいねしたブロックを並び替える
 
----
-
-## SANGO 3.1の紹介
-
-使いやすさとわかりやすさにこだわった専用設定画面
-
-![](/assets/sango-admin.png)
 
 
 ---

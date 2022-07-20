@@ -429,28 +429,7 @@ add_filter('sng_author_label', function () {
 ```
 
 ---
-<!-- classes: title -->
-<!-- background: '/assets/section.jpeg' -->
 
----
-
-## 今後のカスタマイズ方法
-
-### あまり推奨しない
-
-- 子テーマにfunctions.phpを記述する
-- 子テーマにCSSなどを記述する
-- 追加CSSにCSSなどを記述する
-
-
-### 推奨
-
-- ブロックのカスタムCSSにCSSを記述する
-- サイトのパーツはコンテンツブロックで作り込む
-- どうしても実現できない表現はSANGO Landでリクエストする
-- 角丸や影の具合などの全体の調整はtheme.jsonで調整
-
----
 
 
 ## 最近追加した機能の紹介
@@ -485,6 +464,31 @@ add_filter('sng_author_label', function () {
   title="【SANGO ABテストブロック】の使い方"
   subtitle="SANGO カスタマイズガイド"
 />
+
+---
+
+<!-- classes: title -->
+<!-- background: '/assets/section.jpeg' -->
+
+# 今後のカスタマイズ方法
+
+---
+
+## 今後のカスタマイズ方法
+
+### あまり推奨しない
+
+- 子テーマにfunctions.phpを記述する
+- 子テーマにCSSなどを記述する
+- 追加CSSにCSSなどを記述する
+
+
+### 推奨
+
+- ブロックのカスタムCSSにCSSを記述する
+- サイトのパーツはコンテンツブロックで作り込む
+- どうしても実現できない表現はSANGO Landでリクエストする
+- 角丸や影の具合などの全体の調整はtheme.jsonで調整
 
 ---
 

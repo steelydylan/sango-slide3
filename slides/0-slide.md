@@ -169,6 +169,8 @@ import { LinkImage } from '../src/link-image'
 
 - 記事一覧ブロック
 - 参考ブロック
+- 条件ブロック
+- レビューボックスブロック
 
 ---
 
@@ -236,6 +238,14 @@ import { LinkImage } from '../src/link-image'
 - 記事ページ
 - 固定ページ
 
+
+---
+
+## レビューボックスブロック
+
+構造化データ対応
+
+![](/assets/review.png)
 
 ---
 
